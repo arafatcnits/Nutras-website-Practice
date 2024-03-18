@@ -1,0 +1,594 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    display: flex;
+}
+.navbar-item ul li {
+    float: left;
+    padding: 25px;
+    list-style-type: none;
+}
+.navbar-item ul {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.navbar-item a:hover{
+    color: rgb(223, 161, 97);
+    text-decoration: none;
+}
+.navbar-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.nav-img {
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.nav-btn {
+    background: rgb(61, 118, 48);
+    padding:20px 20px;
+    text-align: center;
+   border-radius: 70px;
+   margin-top: 30px;
+   padding-left: 30px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+   padding-right: 50px;
+}
+
+.nav-btn:hover{
+    background-color: black;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: rgb(224, 219, 219);
+    padding-left: 20px;
+}
+/* .nav-btn a:hover {
+    color:rgb(255, 240, 240);
+    background: red;
+} */
+.hero-section {
+    background-image: url(./img/food\ -img.webp);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.hero-section h5 {
+    padding-top: 130px;
+    padding-left: 100px;
+}
+.hero-section h3 {
+    padding-left: 100px;
+    font-size: 60px;
+}
+.hero-section p {
+    padding-left: 100px;
+    font-size:20px;
+    margin-top: 10px;
+}
+.hero-btn {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.hero-btn a {
+    padding: 15px;
+    background: rgb(255, 163, 0);
+    padding:20px 20px;
+    text-decoration: none;
+    border-radius: 70px;
+    color: white;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+.hero-icon {
+    padding-top: 120px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.hero-icon_contact{
+    display: flex;
+    margin-top: 90px;
+}
+.contact-icon {
+    margin-left: 20px;
+}
+.contact-icon p {
+    color: rgb(100, 88, 86);
+}
+.contact-icon i {
+ border: 1px solid #d7dbda;
+ padding: 15px;
+ border-radius: 50px;
+ background: white;
+ margin-left: 7px;
+}
+.course-section {
+    display: flex;
+    margin-top: 180px;
+    background: rgb(255, 255, 255);
+}
+.course-section-1 {
+    width: 33.33%;
+}
+.course-section-2 {
+    width: 33.33%;
+}
+.course-section-3 {
+    width: 33.33%;
+}
+
+.course_icon img {
+    width: 80px;
+}
+
+.course_icon {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9ebe6;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.course_icon.active,
+.course_icon:hover {
+    background-color: #0a4d3c;   
+}
+.course-heading {
+    text-align: center;
+}
+.course-heading h1 {
+    font-size: 35px;
+    padding-top: 30px;
+
+}
+.course-heading p {
+    padding-top: 10px;
+    line-height: 1.7;
+    font-size: 15px;
+    font-family: montserrat sans-serif;
+    margin-bottom: 220px;
+    font-family: 'Times New Roman';
+}
+.expert-instructor-section {
+    display: flex;
+    background: rgb(247, 246, 244);
+    padding: 40px;
+}
+.expert-instructor{
+    width: 50%;
+    margin-left: 80px;
+}
+.expert-instructor img {
+    width: 500px;
+    height: 550px;
+    padding-top: 140px;
+}
+.expert-instructor-heading {
+    width: 50%;
+    margin-right: 40px;
+    padding-left: 30px;
+    margin-top: 100px;
+    background: white;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.expert-instructor-heading h4 {
+    padding-bottom: 20px;
+    
+}
+.expert-instructor-heading h1{
+    font-size: 60px;
+
+}
+.expert-instructor-heading p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.expert-instructor-heading img {
+    width: 150px;
+    padding-left: 380px;
+    padding-bottom: 30px;
+}
+.Fitness-Nutrition-Courses {
+    display: flex;
+    padding-top: 0px;
+}
+.Fitness-Nutrition-Courses h5 {
+    padding-right: 230px;
+    padding-bottom: 10PX;
+}
+.Fitness-Nutrition-Courses h3 {
+    font-size: 24PX;
+}
+.Nutrition-Cooking {
+    width: 33.33%;
+    padding-left: 100px;
+}
+.Nutrition-Lifestyle {
+    width: 33.33%;
+    /* padding-right: 420px; */
+}
+.fitness-section h4{
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+color: #0a4d3c;
+}
+.fitness-section h1{
+    /* padding-top: 20px; */
+    font: size 57px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.time-section {
+    display: flex;
+}
+.Introduction-Health {
+    width: 33.33%;
+    padding-right: 50px;
+    /* padding-left: 50px; */
+}
+.our-watchtime-section {
+    padding-top: 20px;
+    display: flex;
+}
+.our-watchtime-section P {
+    color: rgb(208, 175, 144);
+}
+.our-watchtime-section li {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color: rgb(208, 175, 144) ;
+}
+.nutrition-course-section {
+    display: flex;
+    padding-left: 90px;
+}
+.expertise-section{
+    width: 33.33%;
+    /* padding-left: 100px; */
+}
+.expertise-section h2 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+.exercise-section {
+    width: 33.33%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.exercise-section h5 {
+    padding-top: 20px;
+
+}
+.exercise-section h2 {
+    padding-top: 10px;
+    font-size: 24px;
+}
+.Designing-section {
+    width: 33.33%;
+    /* padding-right: 420px; */
+}
+
+.Designing-section h5 {
+    padding-top: 20px;
+}
+.Designing-section h2 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.about-section {
+    text-align: center;
+}
+.about-section h5 {
+    padding-top: 70px;
+    color: rgb(226, 168, 38);
+    font-size: 14px;
+
+}
+.about-section h2 {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 57px;
+
+}
+.about-section p {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+.about-section h4 {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.about-section h6 {
+    color: rgb(226, 168, 38);
+    padding-top: 20px;
+    font-size: 11px;
+    padding-bottom: 90px;
+
+}
+.about-section img {
+    width: 80px;
+    margin: auto;
+    border-radius: 100%;
+    /* padding-top: 30px; */
+}
+.about-section{
+    background: rgb(10, 77, 60);
+}
+.Trusted-section {
+    text-align: center;
+}
+.Trusted-section h4 {
+    padding-top: 150px;
+
+}
+.Trusted-section p {
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+.Trusted-section h2  {
+    font-size: 57px;
+    padding-top: 10px;
+}
+.Trusted-section h4 {
+    color: #0a4d3c;
+}
+.Trusted-section h2 {
+    font-size: 57px;
+}
+.Trusted-section p {
+    color: rgb(83, 95, 92);
+ 
+}
+
+.cut-section {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 250px;
+}
+.salon{
+    display: flex;
+}
+
+.spa-salon{
+    margin: 23px;
+}
+.article-section {
+    text-align: center;
+}
+.article-section h5{
+    padding-top: 150px;
+
+}
+.article-section h2{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.article-section h5 {
+    color: rgb(10, 77, 60);
+}
+.article-section h2 {
+    font-size: 57px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(247, 244, 244);
+    padding: 100px 0px;
+}
+.blog-cord {
+    /* display: flex; */
+}
+.like-share {
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.main-div span {
+    color: rgb(239, 167, 22);
+
+}
+.blog-cord{
+    padding: 80px 40px 100px 40px;
+    background-color: white;
+    width: 33.33%;
+    margin: 20px;  
+}
+.blog-cord:hover{
+    background-color:  rgb(10, 77, 60) ;
+
+}
+.blog-cord {
+    background: rgb(247, 246, 244);
+}
+
+.namebar-div {
+    /* padding-left: 30px; */
+    display: flex;
+    font-size: 22px;
+}
+.namebar-div h4{
+    padding: 10px 20px;
+    background-color: #0a4d3c;
+
+}
+.blog-cord-1 {
+    padding: 80px 40px 100px 40px;
+    background: #0a4d3c;
+    margin: 20px;
+    width: 33.33%;
+}
+.namebar-div h4:hover{
+    padding: 10px 20px;
+    background-color: #ffffff;
+
+}
+.maddie-rife {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.maddie-rife h5 {
+    font-size: 15px;
+}
+.maddie-rife li{
+    padding-left: 10px;
+
+}
+.top-div{
+    display: flex;
+}
+.sheets-heading {
+    padding-top: 20px;
+}
+.text-section {
+    padding-top: 20px;
+}
+.container-div {
+    width: 90%;
+    margin: auto;
+    background: rgb(226, 168, 38);
+    margin-top: 60px;
+}
+.mobile-heading {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #0a4d3c;
+}
+.download-heading {
+    text-align: center;
+    font-size: 57px;
+    color: white;
+    padding-bottom: 200px;
+}
+.main-footer {
+    display: flex;
+    padding-left: 70px;
+    margin-top: 100px;
+    background: rgb(10, 77, 60);
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.main-footer h4 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgb(242, 166, 18);
+}
+.main-footer h5 {
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+}
+.Subscribe-news {
+    width: 25%;
+}
+.Subscribe-news p {
+    font-size: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    line-height: 1.9;
+    color: white;
+}
+.Subscribe-news input{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.Subscribe-now a {
+    text-decoration: none;
+    color: white;
+}
+.Subscribe-now button:hover {
+    background-color: rgb(255, 255, 255);
+}
+.Subscribe-now button{
+    padding: 10px 50px 10px 50px ;
+    border-radius: 10px;
+    background: rgb(255, 163, 0);
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.all-courses {
+    width:25% ;
+}
+.all-courses h4{
+    padding-left: 10px;
+}
+.help-link {
+    width: 25%;
+}
+.help-link h4 {
+    padding-left: 10px;
+
+}
+.open-hour {
+    width: 25%;
+}
+.open-hour h4 {
+    padding-left: 10px;
+}
+.footer-text {
+    display: flex;
+    background: rgb(10, 68, 53);
+}
+.nutras-section {
+    width: 40%;
+    color: white;
+    margin-left: 20px;
+}
+.nutras-section p span {
+    color: rgb(255, 163, 0);
+}
+.nutras-section span a {
+    color: rgb(255, 163, 0);
+}
+.nutras-section {
+    display: flex;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.footer-text {
+    padding-bottom: 40px;
+
+}
+.footer-privacy {
+    width: 60%;
+}
+.footer-privacy {
+    list-style-type: none;
+    display: flex;
+    margin-left: 500px;
+}
+.footer-privacy li {
+    margin-top: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.footer-privacy li a {
+    text-decoration: none;
+    color: white;
+}
